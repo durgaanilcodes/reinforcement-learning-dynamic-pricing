@@ -178,3 +178,75 @@ To visualise how likely bookings are across the dataset.
 
 The distribution shows the range and frequency of booking probabilities used in the simulation.
 
+
+
+\# Training Progress
+
+
+
+\## Purpose
+
+
+
+To monitor how the Reinforcement Learning agent improves during training.
+
+
+
+\## Observation
+
+
+
+The reward generally increases over successive training episodes.
+
+
+
+The upward trend indicates that the pricing agent is learning a better pricing policy.
+
+
+
+\---
+
+
+
+\# Moving Average Reward
+
+
+
+\## Purpose
+
+
+
+To smooth short-term reward fluctuations and show the long-term learning trend.
+
+
+
+\## Observation
+
+
+
+The moving average demonstrates a consistent improvement in reward.
+
+
+
+\---
+
+
+
+\# Policy Improvement
+
+
+
+\## Purpose
+
+
+
+To visualise the improvement of the pricing policy throughout training.
+
+
+
+\## Observation
+
+
+
+The policy score gradually increases, indicating that the RL agent is learning increasingly effective pricing decisions.
+
