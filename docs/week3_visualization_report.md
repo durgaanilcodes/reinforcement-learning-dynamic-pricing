@@ -250,3 +250,57 @@ To visualise the improvement of the pricing policy throughout training.
 
 The policy score gradually increases, indicating that the RL agent is learning increasingly effective pricing decisions.
 
+
+
+\# Week 3 Summary
+
+
+
+\## Work Completed
+
+
+
+The Week 3 visualization tasks focused on presenting the performance and business impact of the Reinforcement Learning dynamic pricing system.
+
+
+
+The following visualizations were created:
+
+
+
+\- Reward vs Episode
+
+\- Dynamic Price vs Demand Level
+
+\- Revenue Comparison
+
+\- Base Price vs Dynamic Price
+
+\- Booking Probability Distribution
+
+\- Training Progress
+
+\- Moving Average Reward
+
+
+
+\## Key Findings
+
+
+
+\- Dynamic pricing adapts prices based on expected demand.
+
+\- Higher demand generally corresponds to increased booking probability.
+
+\- Revenue varies across hotel types and seasons.
+
+\- RL training metrics indicate progressive learning of the pricing policy (using actual training outputs when available).
+
+
+
+\## Business Impact
+
+
+
+These visualizations help stakeholders understand pricing behaviour, revenue trends, and the learning progress of the Reinforcement Learning model. They also support decision-making and project presentations.
+
