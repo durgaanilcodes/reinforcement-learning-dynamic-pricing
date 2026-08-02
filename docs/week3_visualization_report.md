@@ -88,5 +88,93 @@ Improved rewards correspond to increased revenue generation and better pricing d
 
 
 
+\## Dynamic Price vs Demand Level
 
+
+
+\*\*Purpose\*\*
+
+
+
+To analyse the relationship between dynamic pricing and customer demand.
+
+
+
+\*\*Observation\*\*
+
+
+
+Higher dynamic prices generally correspond to lower demand, illustrating the trade-off between pricing and bookings.
+
+
+
+\---
+
+
+
+\## Revenue Comparison
+
+
+
+\*\*Purpose\*\*
+
+
+
+To compare average revenue across hotel types.
+
+
+
+\*\*Observation\*\*
+
+
+
+The comparison highlights differences in revenue performance, which can guide pricing strategies.
+
+
+
+\---
+
+
+
+\## Base Price vs Dynamic Price
+
+
+
+\*\*Purpose\*\*
+
+
+
+To compare original pricing with dynamically adjusted pricing.
+
+
+
+\*\*Observation\*\*
+
+
+
+The dynamic pricing model adjusts prices from the base value to better match expected demand.
+
+
+
+\---
+
+
+
+\## Booking Probability Distribution
+
+
+
+\*\*Purpose\*\*
+
+
+
+To visualise how likely bookings are across the dataset.
+
+
+
+\*\*Observation\*\*
+
+
+
+The distribution shows the range and frequency of booking probabilities used in the simulation.
 
