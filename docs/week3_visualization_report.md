@@ -42,3 +42,51 @@ The visualizations include:
 
 The graphs are prepared using simulated training data and will be updated with actual RL training outputs when available.
 
+
+
+\# Reward vs Episode
+
+
+
+\## Purpose
+
+
+
+Evaluate the learning performance of the Reinforcement Learning pricing agent.
+
+
+
+\## Graph Used
+
+
+
+Reward vs Episode Line Graph
+
+
+
+\## Observation
+
+
+
+Reward increases steadily over training.
+
+
+
+Small fluctuations are caused by exploration.
+
+
+
+The increasing trend indicates that the RL agent is successfully learning an optimal pricing policy.
+
+
+
+\## Business Value
+
+
+
+Improved rewards correspond to increased revenue generation and better pricing decisions.
+
+
+
+
+
