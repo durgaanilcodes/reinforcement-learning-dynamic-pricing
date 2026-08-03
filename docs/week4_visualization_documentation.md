@@ -51,3 +51,37 @@ Prepare final visualizations, dashboard charts, workflow diagrams, and architect
 \- Final Visualization Documentation
 
 
+\# Final Performance Visualizations
+
+
+
+The following visualizations were prepared:
+
+
+
+\- Revenue by Hotel Type
+
+\- Revenue by Season
+
+\- Average Dynamic Price
+
+\- Booking Probability Distribution
+
+\- Revenue Distribution
+
+\- Rooms Available Distribution
+
+\- Average Revenue by Season
+
+\- Dynamic Price Distribution
+
+\- Base Price vs Dynamic Price
+
+\- Revenue Trend
+
+
+
+These charts summarize the performance of the dynamic pricing system and provide insights into revenue, pricing, demand, and hotel booking behavior.
+
+
+
