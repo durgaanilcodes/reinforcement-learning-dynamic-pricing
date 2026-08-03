@@ -51,6 +51,7 @@ Prepare final visualizations, dashboard charts, workflow diagrams, and architect
 \- Final Visualization Documentation
 
 
+
 \# Final Performance Visualizations
 
 
@@ -84,4 +85,56 @@ The following visualizations were prepared:
 These charts summarize the performance of the dynamic pricing system and provide insights into revenue, pricing, demand, and hotel booking behavior.
 
 
+
+\# Pricing Strategy Comparison
+
+
+
+\## Objective
+
+
+
+Compare the traditional pricing strategy with the Reinforcement Learning optimized pricing strategy.
+
+
+
+\## Visualizations
+
+
+
+\- Base Price vs Dynamic Price
+
+\- Revenue Before vs After RL
+
+\- Average Price Comparison
+
+\- Booking Probability by Demand Level
+
+\- Revenue by Hotel Type
+
+\- Dynamic Price by Season
+
+
+
+\## Observations
+
+
+
+\- Dynamic pricing adjusts prices according to demand.
+
+\- Revenue increased after applying RL-based pricing.
+
+\- Booking probability changes depending on demand levels.
+
+\- Different hotel types contribute differently to total revenue.
+
+\- Seasonal demand influences optimized pricing decisions.
+
+
+
+\## Business Impact
+
+
+
+These visualizations demonstrate how Reinforcement Learning helps maximize revenue while adapting prices according to market demand.
 
