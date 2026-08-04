@@ -138,3 +138,55 @@ Compare the traditional pricing strategy with the Reinforcement Learning optimiz
 
 These visualizations demonstrate how Reinforcement Learning helps maximize revenue while adapting prices according to market demand.
 
+
+
+\# Dashboard Charts
+
+
+
+\## Objective
+
+
+
+Prepare presentation-ready charts and visual assets for the Streamlit dashboard.
+
+
+
+\## Dashboard Components
+
+
+
+\- KPI Metrics
+
+\- Revenue Summary
+
+\- Booking Summary
+
+\- Pricing Summary
+
+\- Revenue Trend
+
+
+
+\## Architecture Diagram
+
+
+
+The architecture illustrates how data flows from the dataset through preprocessing, reinforcement learning, visualization, and finally into the Streamlit dashboard.
+
+
+
+\## Workflow Diagram
+
+
+
+The workflow represents the end-to-end pipeline from raw booking data to business insights generated through Reinforcement Learning.
+
+
+
+\## Business Impact
+
+
+
+These charts and diagrams provide a high-level overview of system performance and make the dashboard easier to understand for technical and non-technical stakeholders.
+
