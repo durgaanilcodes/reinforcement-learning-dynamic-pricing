@@ -1,0 +1,6 @@
+Scenario,Rooms_Available,Booking_Probability,Base_Price,Dynamic_Price,Expected_Revenue
+Low Demand,180,0.3,100,90,27.0
+Medium Demand,120,0.6,120,120,72.0
+High Demand,50,0.9,150,180,162.0
+Peak Season,30,0.95,180,220,209.0
+Off Season,190,0.2,90,80,16.0
