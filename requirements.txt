@@ -1,6 +1,6 @@
-numpy
+streamlit
 pandas
-matplotlib
+numpy
+plotly
 gymnasium
-stable-baselines3
-scikit-learn
+matplotlib
