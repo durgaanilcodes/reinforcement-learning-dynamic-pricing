@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import os
 
 # -------------------------------------------------
 # Page Configuration
@@ -255,4 +256,59 @@ st.download_button(
     data=filtered_df.to_csv(index=False),
     file_name="filtered_dataset.csv",
     mime="text/csv"
+)
+st.divider()
+
+# -------------------------------------------------
+# Saved Analysis Graphs
+# -------------------------------------------------
+
+st.header("📊 Graphs Analysis")
+
+st.subheader("Revenue by Hotel Type")
+st.image(
+    "assets/graphs/revenue_by_hoteltype.png",
+    use_container_width=True
+)
+
+st.subheader("Revenue by Season")
+st.image(
+    "assets/graphs/revenue_by_season.png",
+    use_container_width=True
+)
+
+st.subheader("Revenue vs Price")
+st.image(
+    "assets/graphs/Revenue_vs_Price.png",
+    use_container_width=True
+)
+
+st.subheader("Demand vs Price")
+st.image(
+    "assets/graphs/Demand_vs_Price.png",
+    use_container_width=True
+)
+
+st.subheader("Booking Probability")
+st.image(
+    "assets/graphs/Booking_Probability.png",
+    use_container_width=True
+)
+
+st.subheader("Dynamic Price Distribution")
+st.image(
+    "assets/graphs/dynamic_price_distribution.png",
+    use_container_width=True
+)
+
+st.subheader("Average Dynamic Price")
+st.image(
+    "assets/graphs/average_dynamic_price.png",
+    use_container_width=True
+)
+
+st.subheader("Average Revenue by Season")
+st.image(
+    "assets/graphs/average_revenue_byseason.png",
+    use_container_width=True
 )

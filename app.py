@@ -1,91 +1,92 @@
 import streamlit as st
 
-# ---------------------------------------------------
+# -----------------------------
 # Page Configuration
-# ---------------------------------------------------
+# -----------------------------
 st.set_page_config(
     page_title="RL Dynamic Pricing Dashboard",
-    page_icon="🏨",
-    layout="wide",
-    initial_sidebar_state="expanded"
+    page_icon="💰",
+    layout="wide"
 )
 
-# ---------------------------------------------------
-# Title
-# ---------------------------------------------------
-st.title("🏨 Reinforcement Learning Based Dynamic Pricing Dashboard")
+# -----------------------------
+# Main Title
+# -----------------------------
+st.title("🏨 Reinforcement Learning Dynamic Pricing Dashboard")
 
 st.markdown("""
-### Optimize Hotel Room Pricing using Reinforcement Learning
+Welcome to the **Dynamic Pricing Dashboard** developed for the
+Travel & Hospitality Reinforcement Learning Project.
 
-This dashboard presents a complete Reinforcement Learning based Dynamic Pricing System
-developed for the Travel & Hospitality domain.
+This dashboard combines the work of the entire team into one application.
 
-The application demonstrates how Reinforcement Learning can optimize hotel room prices
-based on demand, booking probability, season, and room availability to maximize revenue.
+Use the navigation menu on the left to explore different sections of the project.
 """)
 
 st.divider()
 
-# ---------------------------------------------------
-# Project Objectives
-# ---------------------------------------------------
-st.header("📌 Project Objectives")
+# -----------------------------
+# Project Summary
+# -----------------------------
+st.header("📌 Project Summary")
+
+st.write("""
+The goal of this project is to optimize hotel room pricing using
+Reinforcement Learning.
+
+Instead of keeping prices fixed, the RL Agent learns the best pricing strategy
+by interacting with a simulated hotel booking environment.
+
+The objective is to maximize long-term revenue while maintaining high booking rates.
+""")
+
+st.divider()
+
+# -----------------------------
+# Dashboard Modules
+# -----------------------------
+st.header("📂 Dashboard Modules")
 
 col1, col2 = st.columns(2)
 
 with col1:
-    st.success("Maximize Hotel Revenue")
-    st.success("Dynamic Price Optimization")
-    st.success("Improve Booking Efficiency")
+    st.success("📊 Project Overview")
+    st.success("📂 Dataset Analysis")
+    st.success("🤖 RL Environment")
+    st.success("💰 Dynamic Pricing Simulation")
 
 with col2:
-    st.success("Interactive Dashboard")
-    st.success("Visualize RL Training")
-    st.success("Support Business Decision Making")
+    st.success("📈 Reward Analysis")
+    st.success("📑 Documentation")
+    st.success("ℹ️ About Project")
 
 st.divider()
 
-# ---------------------------------------------------
-# Team Members
-# ---------------------------------------------------
-st.header("👨‍💻 Project Team")
+# -----------------------------
+# Team Information
+# -----------------------------
+st.header("👨‍💻 Team Members")
 
-team = {
-    "Member": [
+st.table({
+    "Name": [
+        "Krutika Thakur",
         "Durga Anil",
         "Binit Binu",
         "Krutika Thakur",
         "Priyadharshini"
+    ],
+    "Role": [
+        "Dashboard & Visualizations",
+        "RL Environment",
+        "Dataset Processing",
+        "Dashboard & Visualizations",
+        "RL Algorithms Research"
     ]
-}
-
-st.table(team)
+})
 
 st.divider()
 
-# ---------------------------------------------------
-# Technologies
-# ---------------------------------------------------
-st.header("🛠 Technologies Used")
-
-tech1, tech2, tech3 = st.columns(3)
-
-with tech1:
-    st.info("Python")
-    st.info("Streamlit")
-    st.info("Pandas")
-
-with tech2:
-    st.info("NumPy")
-    st.info("Matplotlib")
-    st.info("Plotly")
-
-with tech3:
-    st.info("Gymnasium")
-    st.info("GitHub")
-    st.info("VS Code")
-
-st.divider()
-
-st.info("👈 Use the sidebar to navigate through different dashboard pages.")
+# -----------------------------
+# Footer
+# -----------------------------
+st.caption("Developed using Streamlit • Reinforcement Learning Dynamic Pricing Project")
