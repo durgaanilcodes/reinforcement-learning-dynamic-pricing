@@ -9,7 +9,7 @@ st.set_page_config(
 st.title("📑 Project Documentation")
 
 st.markdown("""
-This page contains the project methodology, workflow, implementation details,
+This contains the project methodology, workflow, implementation details,
 and team documentation for the Reinforcement Learning Dynamic Pricing project.
 """)
 

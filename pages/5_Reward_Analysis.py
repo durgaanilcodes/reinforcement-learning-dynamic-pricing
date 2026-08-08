@@ -11,7 +11,7 @@ st.set_page_config(
 st.title("📈 Reward Analysis & Graphs")
 
 st.markdown("""
-This page evaluates the Reinforcement Learning Dynamic Pricing strategy
+This evaluates the Reinforcement Learning Dynamic Pricing strategy
 using interactive charts and performance metrics.
 """)
 

@@ -15,7 +15,7 @@ st.set_page_config(
 st.title("📂 Dataset Analysis")
 
 st.markdown("""
-This page allows users to explore the hotel booking datasets used in the
+This allows users to explore the hotel booking datasets used in the
 Reinforcement Learning Dynamic Pricing project.
 """)
 

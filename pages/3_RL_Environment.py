@@ -9,7 +9,7 @@ st.set_page_config(
 st.title("🤖 Reinforcement Learning Environment")
 
 st.markdown("""
-This page explains how Reinforcement Learning (RL) is used for
+This explains how Reinforcement Learning (RL) is used for
 Dynamic Pricing in the hotel booking system.
 """)
 
