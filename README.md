@@ -278,6 +278,21 @@ The developed system includes:
 
 ---
 
+## Dashboard
+
+To launch the Streamlit dashboard:
+
+1. Activate the virtual environment
+2. Install requirements
+
+pip install -r requirements.txt
+
+3. Run
+
+streamlit run app.py
+
 # Conclusion
 
 This project demonstrates the application of Reinforcement Learning to Dynamic Pricing by integrating environment design, agent training, reward optimization, performance evaluation, and an interactive dashboard into a complete end-to-end solution.
+
+
